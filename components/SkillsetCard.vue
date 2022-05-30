@@ -1,25 +1,32 @@
-
 <template>
   <div>
     <div class="columns is-multiline">
-      <div class="column is-12 is-paddingless" v-for="skill in data.items" :key="skill.label">
+      <div
+        class="column is-12 is-paddingless"
+        v-for="skill in data.items"
+        :key="skill.label"
+      >
         <div class="box has-margin-top-10 has-margin-bottom-10 is-paddingless">
           <article class="media">
             <div class="media-left">
               <figure class="image is-64x64">
                 <a :href="skill.url" target="_blank">
-                  <img :src="skill.image" alt="Image">
+                  <img :src="skill.image" alt="Image" />
                 </a>
               </figure>
             </div>
             <div class="media-content">
               <div class="content">
                 <p>
-                  <small class="has-text-grey-light	">level : {{skill.level}}</small>
-                  <br>
-                  <strong class="title is-6">{{skill.label}}</strong>
-                  <br>
-                  <small class="is-size-6 has-text-grey	">{{skill.description}}</small>
+                  <small class="has-text-grey-light"
+                    >level : {{ skill.level }}</small
+                  >
+                  <br />
+                  <strong class="title is-6">{{ skill.label }}</strong>
+                  <br />
+                  <small class="is-size-6 has-text-grey">{{
+                    skill.description
+                  }}</small>
                 </p>
               </div>
             </div>
@@ -39,8 +46,13 @@
           <div>
             <p class="heading"></p>
             <p class="title">
-              <b-tooltip label="vuejs:beginner" type="is-dark" position="is-bottom" class="title">
-                <fa :icon="['fab', 'vuejs']"/>
+              <b-tooltip
+                label="vuejs level:intermediate"
+                type="is-dark"
+                position="is-bottom"
+                class="title"
+              >
+                <fa :icon="['fab', 'vuejs']" />
               </b-tooltip>
             </p>
           </div>
@@ -50,12 +62,12 @@
             <p class="heading"></p>
             <p class="title">
               <b-tooltip
-                label="docker:intermediate"
+                label="docker level:intermediate"
                 type="is-dark"
                 position="is-bottom"
                 class="title"
               >
-                <fa :icon="['fab', 'docker']"/>
+                <fa :icon="['fab', 'docker']" />
               </b-tooltip>
             </p>
           </div>
@@ -64,8 +76,13 @@
           <div>
             <p class="heading"></p>
             <p class="title">
-              <b-tooltip label="git:intermediate" type="is-dark" position="is-bottom" class="title">
-                <fa :icon="['fab', 'git']"/>
+              <b-tooltip
+                label="git:intermediate"
+                type="is-dark"
+                position="is-bottom"
+                class="title"
+              >
+                <fa :icon="['fab', 'git']" />
               </b-tooltip>
             </p>
           </div>
@@ -80,7 +97,7 @@
                 position="is-bottom"
                 class="title"
               >
-                <fa :icon="['fab', 'bootstrap']"/>
+                <fa :icon="['fab', 'bootstrap']" />
               </b-tooltip>
             </p>
           </div>
@@ -89,8 +106,13 @@
           <div>
             <p class="heading"></p>
             <p class="title">
-              <b-tooltip label="ubuntu:enduser" type="is-dark" position="is-bottom" class="title">
-                <fa :icon="['fab', 'ubuntu']"/>
+              <b-tooltip
+                label="ubuntu:enduser"
+                type="is-dark"
+                position="is-bottom"
+                class="title"
+              >
+                <fa :icon="['fab', 'ubuntu']" />
               </b-tooltip>
             </p>
           </div>
@@ -100,8 +122,13 @@
           <div>
             <p class="heading"></p>
             <p class="title">
-              <b-tooltip label="sass:beginner" type="is-dark" position="is-bottom" class="title">
-                <fa :icon="['fab', 'sass']"/>
+              <b-tooltip
+                label="sass:beginner"
+                type="is-dark"
+                position="is-bottom"
+                class="title"
+              >
+                <fa :icon="['fab', 'sass']" />
               </b-tooltip>
             </p>
           </div>
@@ -116,7 +143,7 @@
                 position="is-bottom"
                 class="title"
               >
-                <fa :icon="['fab', 'markdown']"/>
+                <fa :icon="['fab', 'markdown']" />
               </b-tooltip>
             </p>
           </div>
@@ -125,7 +152,6 @@
     </div>
   </div>
 </template>
-
 
 <style lang="scss" scoped>
 .box {
@@ -147,10 +173,8 @@
 }
 </style>
 
-
-
 <script>
 export default {
-  props: ["data"]
+  props: ["data"],
 };
 </script>
