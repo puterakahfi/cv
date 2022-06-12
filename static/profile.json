@@ -1,8 +1,6 @@
 {
-
     "theme": "default",
     "themePath": " ../themes",
-
     "basics": {
         "theme": "default",
         "name": "Putera Kahfi",
@@ -20,15 +18,18 @@
             "countryCode": "US",
             "region": "California"
         },
-        "profiles": [{
-            "network": "Twitter",
-            "username": "john",
-            "url": "http://twitter.com/john"
-        }]
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "john",
+                "url": "http://twitter.com/john"
+            }
+        ]
     },
     "works": {
         "label": "Experiences",
-        "items": [{
+        "items": [
+            {
                 "company": "PT.Visi Multimedia Aditama",
                 "country": "Yogyakarta, Indonesia",
                 "position": "Web Developer",
@@ -54,51 +55,62 @@
             }
         ]
     },
-    "volunteer": [{
-        "organization": "Organization",
-        "position": "Volunteer",
-        "website": "http://organization.com/",
-        "startDate": "2012-01-01",
-        "endDate": "2013-01-01",
-        "summary": "Description...",
-        "highlights": [
-            "Awarded 'Volunteer of the Month'"
-        ]
-    }],
-    "education": [{
-        "institution": "University",
-        "area": "Software Development",
-        "studyType": "Bachelor",
-        "startDate": "2011-01-01",
-        "endDate": "2013-01-01",
-        "gpa": "4.0",
-        "courses": [
-            "DB1101 - Basic SQL"
-        ]
-    }],
-    "awards": [{
-        "title": "Award",
-        "date": "2014-11-01",
-        "awarder": "Company",
-        "summary": "There is no spoon."
-    }],
-    "publications": [{
-        "name": "Publication",
-        "publisher": "Company",
-        "releaseDate": "2014-10-01",
-        "website": "http://publication.com",
-        "summary": "Description..."
-    }],
-    "skills": [{
-        "name": "Web Development",
-        "level": "Master",
-        "keywords": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ]
-    }],
-    "languages": [{
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "website": "http://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description...",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University",
+            "area": "Software Development",
+            "studyType": "Bachelor",
+            "startDate": "2011-01-01",
+            "endDate": "2013-01-01",
+            "gpa": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ]
+        }
+    ],
+    "languages": [
+        {
             "name": "English",
             "level": "Native speaker"
         },
@@ -107,20 +119,25 @@
             "level": "Native speaker"
         }
     ],
-    "interests": [{
-        "name": "Wildlife",
-        "keywords": [
-            "Ferrets",
-            "Unicorns"
-        ]
-    }],
-    "references": [{
-        "name": "Jane Doe",
-        "reference": "Reference..."
-    }],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference..."
+        }
+    ],
     "wakatimeActivity": {
         "label": "Coding Activity",
-        "items": [{
+        "items": [
+            {
                 "label": " Activity",
                 "wakaUrl": "https://wakatime.com/share/@puterakahfi/5c7550a6-2b53-4a80-b96f-2e60e9a5fc40.svg"
             },
@@ -134,10 +151,10 @@
             }
         ]
     },
-
     "technologyStack": {
         "label": "",
-        "items": [{
+        "items": [
+            {
                 "label": "Symfony",
                 "url": "https://symfony.com",
                 "icon": "symfony.png"
