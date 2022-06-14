@@ -15,6 +15,11 @@
       "label": "OS",
       "isActive": false,
       "url": "https://wakatime.com/share/@puterakahfi/774facfe-769e-4098-9a7f-7f3233a8d519.svg"
+    },
+    {
+      "label": "Editor",
+      "isActive": true,
+      "url": "https://wakatime.com/share/@puterakahfi/ed9dff27-ae5f-4862-b966-167ab13dd445.svg"
     }
   ]
 }
