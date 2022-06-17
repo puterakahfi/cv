@@ -18,8 +18,11 @@
             <div class="media-content">
               <div class="content">
                 <p>
-                  <small class="has-text-grey-light"
-                    >level : {{ skill.level }}</small
+                  <small class="has-text-grey-light" v-if="skill.experience"
+                    >Experience : {{ skill.experience }}</small
+                  >
+                  <small class="has-text-grey-light" v-if="skill.level"
+                  >Level : {{ skill.level }}</small
                   >
                   <br />
                   <strong class="title is-6">{{ skill.label }}</strong>

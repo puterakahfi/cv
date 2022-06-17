@@ -1,5 +1,5 @@
 <template>
-  <section class="has-backgound-white">
+  <section class="">
     <section data-aos="fade-down" id="header" class>
       <div class="container">
         <Header
@@ -10,7 +10,7 @@
     </section>
 
     <section
-      class="has-background-white has-padding-top-50 has-padding-bottom-50"
+      class=" has-padding-top-50 has-padding-bottom-50"
     >
       <div class="container">
         <div class="columns">
@@ -91,6 +91,7 @@ export default {
     Header,
     SkillsetCard,
   },
+
 };
 </script>
 
@@ -99,9 +100,6 @@ export default {
   text-decoration: line-through;
 }
 
-section {
-  background: #f9f9ff;
-}
 
 h1 {
   &.display-3 {

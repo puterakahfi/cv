@@ -5,6 +5,7 @@
             "label": "Symfony Framework",
             "url": "https://symfony.com",
             "level": "intermediate",
+            "experience": "7 years",
             "description": "PHP Framework",
             "image": "https://img.icons8.com/color/344/symfony.png"
         },
@@ -12,6 +13,7 @@
             "label": "NuxtJS",
             "url": "https://nuxtjs.org",
             "level": "intermediate",
+            "experience": "3 years",
             "description": "VueJS Framework",
             "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/NuxtJS_Logo.png"
         },
@@ -19,6 +21,7 @@
             "label": "Golang",
             "url": "https://go.dev/",
             "level": "beginner",
+            "experience": "3 months",
             "description": "Go Programming Language",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png"
         },
